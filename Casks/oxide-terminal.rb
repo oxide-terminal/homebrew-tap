@@ -1,8 +1,8 @@
 cask "oxide-terminal" do
-  version "0.6.3"
-  sha256 "f4c8ca3060c65af559bc1585f5edeb42bfc97041147a007411d859f78abfc43e"
+  version "0.7.0"
+  sha256 "5236402d2d53b21f381f23427f79390312456cad03a88290b780ecb84378b516"
 
-  url "https://github.com/oxide-terminal/oxide/releases/download/v#{version}/Oxide-#{version}.dmg"
+  url "https://downloads.oxideterminal.com/oxide/#{version}/Oxide-#{version}.dmg"
   name "Oxide"
   desc "GPU-rendered terminal emulator written in Rust"
   homepage "https://oxideterminal.com/"
